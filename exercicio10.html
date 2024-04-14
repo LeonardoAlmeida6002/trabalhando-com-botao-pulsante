@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+    <style>
+       
+    @keyframes pulse {
+    0% {
+        transform: scale(1);
+        background-color: lightblue;
+    }
+    50% {
+        transform: scale(1.2);
+        background-color: lightcoral;
+    }
+    100% {
+        transform: scale(1);
+        background-color: lightblue;
+    }
+}
+
+.botao {
+    animation: pulse 2s infinite;
+    border: solid 1px yellow;
+    border-radius: 5px;
+
+}
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1 style="padding-bottom: 20px;">Trabalhando com botão pulsante</h1>
+    </header>
+
+    <main>
+        <button class="botao">
+            Clique aqui!
+            
+        </button>
+    </main>
+</body>
+</html>
